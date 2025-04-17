@@ -31,3 +31,6 @@ git clone https://github.com/TanishqChhibber/News_API_SwitchIT.git
 pip install feedparser requests beautifulsoup4 cachetools
 ```
 3. Run the script or backend server
+```bash
+uvicorn main:app --reload
+```

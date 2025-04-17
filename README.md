@@ -23,9 +23,9 @@ A fast and customizable RSS-powered news aggregator built with Python — design
 ## ✅ How to Run
 
 1. Clone the repo
-   ```bash
-   git clone https://github.com/TanishqChhibber/News_API_SwitchIT.git
-   ```
+```bash
+git clone https://github.com/TanishqChhibber/News_API_SwitchIT.git
+```
 2. Install dependencies:
 ```bash
 pip install feedparser requests beautifulsoup4 cachetools

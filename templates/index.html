@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Select News Category</h1>
+    <div class="category-buttons">
+        {% for category in categories %}
+        <a href="/news/{{ category }}" class="button">{{ category|title }}</a>
+        {% endfor %}
+    </div>
+</body>
+</html>
